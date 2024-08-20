@@ -30,7 +30,6 @@ document.getElementById('convert').addEventListener('click', function () {
       morseMessage += '? ';
     }
   }
-
   const outputElement = document.getElementById('morse-output');
   outputElement.innerText = '';
 
@@ -39,9 +38,11 @@ document.getElementById('convert').addEventListener('click', function () {
     if (i < morseMessage.length) {
       outputElement.innerText += morseMessage.charAt(i);
       i++;
-      setTimeout(typeEffect, 50); // Ajusta el tiempo para hacer la animación más rápida o lenta
+      setTimeout(typeEffect, 50);
     }
   }
+
+
 
   typeEffect();
 });
