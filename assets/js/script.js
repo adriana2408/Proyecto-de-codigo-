@@ -21,7 +21,6 @@ const reverseMorseCode = {
 document.getElementById('convert').addEventListener('click', function () {
   const message = document.getElementById('plain-text').value.toLowerCase();
   let morseMessage = '';
-
   for (let i = 0; i < message.length; i++) {
     let char = message[i];
     if (morseCode[char] !== undefined) {
@@ -30,6 +29,7 @@ document.getElementById('convert').addEventListener('click', function () {
       morseMessage += '? ';
     }
   }
+
   const outputElement = document.getElementById('morse-output');
   outputElement.innerText = '';
 
@@ -42,8 +42,6 @@ document.getElementById('convert').addEventListener('click', function () {
     }
   }
 
-
-
   typeEffect();
 });
 
@@ -55,7 +53,6 @@ document.getElementById('decode').addEventListener('click', function () {
   for (let i = 0; i < morseWords.length; i++) {
     const word = morseWords[i];
     const morseChars = word.split(' ');
-
     for (let j = 0; j < morseChars.length; j++) {
       const char = morseChars[j];
       if (reverseMorseCode[char] !== undefined) {
