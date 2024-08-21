@@ -1,5 +1,5 @@
 ### Bienvenidos a Morse Code Converter ✨📡
-¡Hola, exploradores del código! 🔍
+¡Hola, exploradores del código! 🔍 
 
 Morse Code Converter es tu nueva herramienta favorita para convertir texto a código Morse y viceversa, todo con un toque moderno y divertido. Ya sea que estés aprendiendo Morse por primera vez o simplemente quieras enviar mensajes secretos a tus amigos, ¡esta página lo tiene todo! 💌
 
